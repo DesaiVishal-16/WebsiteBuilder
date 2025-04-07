@@ -1,0 +1,45 @@
+[
+  {
+    "id": "heading",
+    "type": "element",
+    "label": "Heading",
+    "defaultContent": "This is a heading",
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "bold"
+    }
+  },
+  {
+    "id": "paragraph",
+    "type": "element",
+    "label": "Paragraph",
+    "defaultContent": "This is a paragraph of text.",
+    "style": {
+      "fontSize": "16px",
+      "color": "#333"
+    }
+  },
+  {
+    "id": "image",
+    "type": "element",
+    "label": "Image",
+    "defaultSrc": "https://via.placeholder.com/300",
+    "style": {
+      "width": "100%",
+      "borderRadius": "8px"
+    }
+  },
+  {
+    "id": "button",
+    "type": "element",
+    "label": "Button",
+    "defaultContent": "Click Me",
+    "style": {
+      "padding": "10px 20px",
+      "backgroundColor": "#1d4ed8",
+      "color": "#fff",
+      "border": "none",
+      "borderRadius": "6px"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+      "id": "tabs-section",
+      "name": "Sections",
+      "icon": "section",
+      "icon-color": "#eb6134",
+      "tabIndex": 0,
+      "aria-selected":true,
+      "content":[
+        {
+          "id": "add-section",
+          "name": "Add Section",
+          "types": [
+            {
+              "id": "blank-section",
+              "name":"Blank Section"
+            },
+            {
+              "id": "header",
+              "name":"Header"
+            },
+            {
+              "id": "footer",
+              "name": "Footer"
+            }
+          ]
+        }
+      ]
+
+  },
+  {    
+       "id": "tabs-elements",
+       "name": "Elements",
+       "icon": "element",
+       "icon-color": "#ebd634" ,
+       "tabIndex": -1,
+       "aria-selected":false,  
+        "content": [
+          {
+            "id": "text",
+            "name": "Text",
+             "types": [
+                {
+                  "id": "heading",
+                  "name": "Heading"
+                },
+                {
+                    "id": "paragraph",
+                    "name": "Paragraph"
+                }
+             ]
+          },
+          {
+            "id": "buttons",
+            "name": "Buttons",
+            "types": [
+                {
+                   "id": "button",
+                   "name": "Button"
+                },
+                {
+                    "id": "buttonIcon",
+                    "name": "Button with Icon"
+                }
+            ]
+          },
+          {
+            "id": "images",
+            "name": "Images",
+            "types": [
+                {
+                  "id": "image",
+                  "name": "Image" 
+                },
+                {
+                    "id": "imageText",
+                    "name": "Image with Text"
+                }
+            ]
+          }
+        ]
+  }
+]

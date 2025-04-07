@@ -1,0 +1,83 @@
+[
+  {
+    "id": "hero-section",
+    "type": "section",
+    "name": "Hero Section",
+    "elements": [
+      {
+        "id": "hero-heading",
+        "type": "heading",
+        "content": "Welcome to Our Site",
+        "style": {
+          "fontSize": "36px",
+          "fontWeight": "bold",
+          "textAlign": "center"
+        }
+      },
+      {
+        "id": "hero-subtext",
+        "type": "paragraph",
+        "content": "We provide the best solutions for your business.",
+        "style": {
+          "fontSize": "18px",
+          "textAlign": "center",
+          "marginTop": "10px"
+        }
+      },
+      {
+        "id": "hero-button",
+        "type": "button",
+        "content": "Get Started",
+        "style": {
+          "padding": "12px 24px",
+          "backgroundColor": "#2563eb",
+          "color": "#fff",
+          "borderRadius": "8px",
+          "marginTop": "20px"
+        }
+      }
+    ]
+  },
+  {
+    "id": "features-section",
+    "type": "section",
+    "name": "Features",
+    "elements": [
+      {
+        "id": "feature-heading",
+        "type": "heading",
+        "content": "Our Features",
+        "style": {
+          "fontSize": "32px",
+          "fontWeight": "bold",
+          "textAlign": "center"
+        }
+      },
+      {
+        "id": "feature-grid",
+        "type": "grid",
+        "columns": 3,
+        "items": [
+          {
+            "type": "iconCard",
+            "icon": "⚡",
+            "title": "Fast",
+            "description": "Experience blazing fast performance."
+          },
+          {
+            "type": "iconCard",
+            "icon": "🔒",
+            "title": "Secure",
+            "description": "Top-level security built-in."
+          },
+          {
+            "type": "iconCard",
+            "icon": "⚙️",
+            "title": "Customizable",
+            "description": "Tailor your site exactly how you want."
+          }
+        ]
+      }
+    ]
+  }
+]
