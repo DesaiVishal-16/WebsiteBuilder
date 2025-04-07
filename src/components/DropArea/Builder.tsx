@@ -24,7 +24,7 @@ const Builder = () => {
     }
     return null;
   })();
-  
+  console.log(activeElement) 
   const handleDragStart = (event: DragStartEvent) => {
     setActiveData(event.active.data.current);
     console.log("Drag started:", event.active.id, event.active.data.current);

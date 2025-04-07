@@ -40,6 +40,7 @@ const DropArea = () => {
     setEditedContent(element.content);
     const rect = (event.target as HTMLElement).getBoundingClientRect();
     setEditingRect(rect);
+    console.log(sectionId)
   };
 
   const handleBlur = (sectionId: string, elementId: string) => {

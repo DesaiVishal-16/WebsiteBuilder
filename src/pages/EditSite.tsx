@@ -52,8 +52,8 @@ const EditSite = () => {
     );
   };
 
-  const handleDragStart = (event: DragStartEvent) => {
-    // Close navbar on drag start (corrected syntax)
+  const handleDragStart = (e: DragStartEvent) => {
+    console.log(e.activatorEvent);
     setTimeout(() => setIsNavbarOpen(false), 2000);
   };
 
