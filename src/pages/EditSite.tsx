@@ -36,7 +36,6 @@ const EditSite = () => {
         sectionId: selected.sectionId,
       };
     }
-
     return null;
   });
 
